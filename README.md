@@ -10,4 +10,4 @@ tendo como base o <a href="https://www.youtube.com/watch?v=utfRnLJTIsc" target="
 do canal do Youtube: <a href="https://www.youtube.com/channel/UCmT9TwcIb_yAe7-Uqhn3fBA" target="_blank">
 Code Commerce</a></p>
 
-## Demo:
+## Demo: https://galaxy-travel.netlify.app
