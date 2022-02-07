@@ -1,5 +1,5 @@
 /*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600;800&display=swap");
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -18,7 +18,7 @@
   --border-color: #cfcfcf;
 
   /*========== Font and Typography ==========*/
-  --body-font: "Source Sans Pro", sans-serif;
+  --body-font: "Outfit", sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
   --big-font-size: 2rem;
@@ -30,9 +30,8 @@
   --smaller-font-size: 0.75rem;
 
   /*========== Font Weight ==========*/
-  --font-medium: 500;
+  --font-extra-light: 200;
   --font-semi-bold: 600;
-  --font-bold: 700;
   --font-bolder: 800;
 
   /*========== Margins ==========*/
