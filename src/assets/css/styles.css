@@ -105,3 +105,18 @@ input:focus {
 }
 
 /*========== CLASS CSS ==========*/
+.btn {
+  padding: 0.75rem 0.75rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background: transparent;
+  color: var(--container-color);
+  border: 1px solid var(--container-color);
+  cursor: pointer;
+}
+.btn-light {
+  background: rgba(255, 255, 255, 0.2);
+}
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
