@@ -5,7 +5,7 @@ const Home = () => {
     <div align="center">
       <h1>OH, hi there!</h1>
       <input type="text" placeholder="Yoo" />
-      <button>Click Me</button>
+      <button class="btn">Click Me</button>
     </div>
   );
 };
