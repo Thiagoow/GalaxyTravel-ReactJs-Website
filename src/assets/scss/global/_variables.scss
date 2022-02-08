@@ -1,0 +1,54 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600;800&display=swap");
+
+/*===== VARIABLES CSS =====*/
+
+/* :root { */
+/*========== Colors ==========*/
+$first-color: #fd7434;
+$first-color-alt: #ff6600;
+$secondary-color: #2268ff;
+$secondary-color-alt: #1b36b1;
+$title-color: #ffffff;
+$txt-color: #e0e0e0;
+$txt-color-light: #afafaf;
+$body-color: #000000;
+$container-color: #f7f7f7;
+$input-color: #f1f1f1;
+$shadow-color: rgba(255, 255, 255, 0.2);
+$border-color: #cfcfcf;
+
+/*========== Font and Typography ==========*/
+$body-font: "Outfit", sans-serif;
+
+/* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+$biggest-font-size: 1.75rem;
+$h1-font-size: 1.5rem;
+$h2-font-size: 1.25rem;
+$h3-font-size: 1rem;
+$normal-font-size: 0.938rem;
+$small-font-size: 0.813rem;
+$smaller-font-size: 0.75rem;
+$tiny-font-size: 0.625rem;
+
+/*========== Font Weight ==========*/
+$font-extra-light: 200;
+$font-semi-bold: 600;
+$font-bolder: 800;
+
+/*========== Margins ==========*/
+/* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
+$mb-1: 0.5rem;
+$mb-2: 1rem;
+$mb-3: 1.5rem;
+$mb-4: 2rem;
+$mb-5: 2.5rem;
+$mb-6: 3rem;
+
+/*========== Z-index ==========*/
+$z-tooltip: 10;
+$z-fixed: 100;
+
+/*========== Border Radius ===========*/
+$border-outside-radius: 15px;
+$border-inside-radius: 20px;
