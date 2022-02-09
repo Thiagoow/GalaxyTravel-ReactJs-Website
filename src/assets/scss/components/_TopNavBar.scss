@@ -1,4 +1,4 @@
-@import "../global/variables";
+@use "../config/variables" as *;
 
 .header {
   position: fixed;

@@ -1,10 +1,22 @@
-// Import of partial files
-@import "global/variables";
-@import "base/base";
+// Import the partial files:
+
+@use "config/variables";
+
 /* 
-@import "theme/theme";
-@import "layout/layout";
+@use 'vendors/bootstrap';
 */
-@import "components/buttons";
-@import "components/mediaQueries";
-@import "components/TopNavBar";
+
+@use "base/base";
+
+/*
+@use "layout/layout";
+*/
+
+@use "components/buttons";
+@use "components/mediaQueries";
+@use "components/TopNavBar";
+
+/* 
+@use 'pages/singlePage';
+@use "themes/theme";
+*/
