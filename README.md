@@ -6,8 +6,8 @@
 # Galaxy Travel - Beginner React Router DOM
 
 <p>Esse projeto foi feito por: <strong>Thiago Silva Lopes</strong>, em 02/2022,</br>
-tendo como base o <a href="https://www.youtube.com/watch?v=utfRnLJTIsc" target="_blank">tutorial</a>
-do canal do Youtube: <a href="https://www.youtube.com/channel/UCmT9TwcIb_yAe7-Uqhn3fBA" target="_blank">
-Code Commerce</a></p>
+tendo como base o projeto <a href="https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3" target="_blank">"Space tourism multi-page website"</a>
+da plataforma online com desafios de código: <a href="https://www.frontendmentor.io/" target="_blank">
+Frontend Mentor</a></p>
 
 ## Demo: https://galaxy-travel.netlify.app
