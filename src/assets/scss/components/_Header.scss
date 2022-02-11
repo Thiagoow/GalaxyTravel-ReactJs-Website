@@ -1,0 +1,128 @@
+@use "../abstracts/variables" as *;
+
+.header {
+  width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-ul {
+  list-style-type: none;
+  height: 6rem;
+  width: 100%;
+  padding: 0 20% 0 8rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba($container-color, 0.2);
+  backdrop-filter: blur(80px);
+
+  li {
+    display: flex;
+  }
+}
+
+.item-link {
+  text-transform: uppercase;
+  font-size: $small-font-size;
+  padding: 0 $mb-4;
+
+  &:hover {
+    font-weight: $wgt-semi-bold;
+  }
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: $container-color;
+}
+
+.hamburger {
+  display: none;
+
+  &.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  &.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  &.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .nav-ul {
+    padding: 0 10% 0 4rem;
+  }
+}
+
+@media screen and (max-width: 1008px) {
+  .header {
+    top: 0;
+  }
+
+  .nav-ul {
+    padding: 0 10%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .nav-ul {
+    padding: 0 10% 0 2rem;
+  }
+
+  .item-link {
+    padding: 0 $mb-2;
+
+    b {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .hamburger {
+    display: block;
+    margin-right: $mb-5;
+  }
+
+  .nav-ul {
+    list-style-type: none;
+    width: 40%;
+    padding: 6rem 0;
+    position: fixed;
+    top: 0;
+    right: -40%;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    align-items: center;
+    transition: right 0.5s;
+  }
+
+  .header {
+    height: 6rem;
+
+    li {
+      width: 50%;
+      padding: 1rem 0;
+      margin-right: 0;
+      margin: 0;
+      border-right: 3px;
+    }
+
+    .active {
+      border-right: 3px solid $container-color;
+    }
+  }
+}

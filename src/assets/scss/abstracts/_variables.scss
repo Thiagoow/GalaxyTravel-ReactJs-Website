@@ -1,40 +1,39 @@
 /*===== GOOGLE FONTS =====*/
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap");
 
 /*===== VARIABLES CSS =====*/
 
 /* :root { */
 /*========== Colors ==========*/
-$first-color: #fd7434;
-$first-color-alt: #ff6600;
-$secondary-color: #2268ff;
-$secondary-color-alt: #1b36b1;
-$title-color: #ffffff;
-$txt-color: #e0e0e0;
-$txt-color-light: #afafaf;
-$body-color: #000000;
-$container-color: #f7f7f7;
-$input-color: #f1f1f1;
-$shadow-color: rgba(255, 255, 255, 0.2);
-$border-color: #cfcfcf;
+$first-color: #d0d6f9;
+$alt-color: rgba(#fff, 50%);
+$inactive-color: rgba(#fff, 18%);
+$title-color: #fff;
+$txt-color: darken($title-color, 15%);
+$txt-color-light: $first-color;
+$body-color: #0b0d17;
+$container-color: #fff;
+$shadow-color: rgba(#000, 0.2);
+$border-color: white;
 
 /*========== Font and Typography ==========*/
-$body-font: "Outfit", sans-serif;
+$body-font: "Bellefair", sans-serif;
+$subtitle-font: "Barlow Condensed", sans-serif;
 
 /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
-$biggest-font-size: 1.75rem;
-$h1-font-size: 1.5rem;
-$h2-font-size: 1.25rem;
-$h3-font-size: 1rem;
-$normal-font-size: 0.938rem;
-$small-font-size: 0.813rem;
-$smaller-font-size: 0.75rem;
-$tiny-font-size: 0.625rem;
+$biggest-font-size: 9rem;
+$h1-font-size: 6.2rem;
+$h2-font-size: 3.5rem;
+$h3-font-size: 2rem;
+$normal-font-size: 1.6rem;
+$txt-font-size: 1.1rem;
+$small-font-size: 1rem;
+$smaller-font-size: 0.875rem;
 
 /*========== Font Weight ==========*/
-$font-extra-light: 200;
-$font-semi-bold: 600;
-$font-bolder: 800;
+$wgt-extra-light: 200;
+$wgt-semi-bold: 600;
+$wgt-bolder: 800;
 
 /*========== Margins ==========*/
 /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */

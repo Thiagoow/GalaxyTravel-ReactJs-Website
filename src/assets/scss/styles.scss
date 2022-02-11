@@ -1,22 +1,16 @@
-// Import the partial files:
+/*========== Partial Files Import: ==========*/
 
 @use "abstracts/variables";
 
-/* 
-@use 'vendors/bootstrap';
-*/
+//@use 'vendors/bootstrap';
 
+@use "base/reset";
 @use "base/base";
 
-/*
-@use "layout/layout";
-*/
+@use "layout/mediaQueries";
 
-@use "components/buttons";
-@use "components/mediaQueries";
-@use "components/TopNavBar";
+@use "components/Header";
+@use "components/Logo";
 
-/* 
-@use 'pages/singlePage';
-@use "themes/theme";
-*/
+//@use 'pages/singlePage';
+//@use "themes/theme";

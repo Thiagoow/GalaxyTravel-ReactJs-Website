@@ -1,10 +1,10 @@
 import React from "react";
-import TopNavBar from "../molecules/TopNavBar";
+import Header from "../organisms/Header";
 
 const Home = () => {
   return (
     <>
-      <TopNavBar />
+      <Header />
     </>
   );
 };
