@@ -8,14 +8,22 @@ const Header = () => {
     const navMenu = document.querySelector(".nav-ul");
     const navLink = document.querySelectorAll(".nav-ul li");
 
-    navLink.forEach((i) => i.addEventListener("click", closeMenu));
-
-    hamburger.classList.toggle("active");
+    hamburger.classList.toggle("open");
+    // Make the navMenu appears from the right:
     navMenu.style.right = "0";
 
-    function closeMenu() {
-      hamburger.classList.remove("active");
+    // If hamburguer isn't open, navMenu go back from the right:
+    if (hamburger.classList.contains("open") === false) {
+      navMenu.style.right = "-60%";
     }
+
+    function closeMenu() {
+      hamburger.classList.remove("open");
+      navMenu.style.right = "-60%";
+    }
+
+    // Close navMenu when click on any link from nav-ul:
+    navLink.forEach((i) => i.addEventListener("click", closeMenu));
   }
 
   return (
@@ -30,7 +38,7 @@ const Header = () => {
         </div>
 
         <ul className="nav-ul">
-          <li className="item-link active">
+          <li className="item-link">
             <Link to="/">
               <b>00</b> Home
             </Link>

@@ -14,7 +14,7 @@
   list-style-type: none;
   height: 6rem;
   width: 100%;
-  padding: 0 20% 0 8rem;
+  padding: 0 1% 0 8rem;
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -28,12 +28,20 @@
 }
 
 .item-link {
+  width: 100%;
   text-transform: uppercase;
   font-size: $small-font-size;
-  padding: 0 $mb-4;
+  padding: 0 $mb-5;
 
   &:hover {
     font-weight: $wgt-semi-bold;
+  }
+
+  b {
+    /* Makes the b tag stay in the same line as the link:
+    position: absolute;
+    */
+    display: none;
   }
 }
 
@@ -48,35 +56,31 @@
 
 .hamburger {
   display: none;
+  position: relative;
+  margin-right: $mb-5;
 
-  &.active .bar:nth-child(2) {
+  &.open .bar:nth-child(2) {
     opacity: 0;
   }
-  &.active .bar:nth-child(1) {
+  &.open .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
-  &.active .bar:nth-child(3) {
+  &.open .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
 }
 
-@media screen and (max-width: 1300px) {
+@media (max-width: 1300px) {
   .nav-ul {
     padding: 0 10% 0 4rem;
   }
 }
 
-@media screen and (max-width: 1008px) {
+@media (max-width: 1008px) {
   .header {
     top: 0;
   }
 
-  .nav-ul {
-    padding: 0 10%;
-  }
-}
-
-@media screen and (max-width: 860px) {
   .nav-ul {
     padding: 0 10% 0 2rem;
   }
@@ -90,31 +94,32 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media (max-width: 640px) {
   .hamburger {
+    z-index: 100;
     display: block;
-    margin-right: $mb-5;
   }
 
   .nav-ul {
     list-style-type: none;
-    width: 40%;
+    width: 60%;
     padding: 6rem 0;
     position: fixed;
     top: 0;
-    right: -40%;
+    right: -60%;
     flex-direction: column;
     justify-content: flex-start;
     height: 100vh;
     align-items: center;
     transition: right 0.5s;
+    z-index: 10;
   }
 
   .header {
     height: 6rem;
 
     li {
-      width: 50%;
+      width: 60%;
       padding: 1rem 0;
       margin-right: 0;
       margin: 0;
