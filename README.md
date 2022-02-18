@@ -3,7 +3,7 @@
 <img src="./ReadMeFiles/app.jpg" align="center">
 </div>
 
-# Galaxy Travel - Beginner React Router DOM
+# Galaxy Travel - Space Exploration Website React + Sass
 
 <p>Esse projeto foi feito por: <strong>Thiago Silva Lopes</strong>, em 02/2022,</br>
 tendo como base o projeto <a href="https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3" target="_blank">"Space tourism multi-page website"</a>
