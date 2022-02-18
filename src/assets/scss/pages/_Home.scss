@@ -2,12 +2,18 @@
 
 .main {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   padding-top: 10%;
   align-items: center;
   display: flex;
 
-  ::after {
+  background-image: url("../../img/home/background-home-desktop.jpg");
+  background: no-repeat center center;
+  background-size: 100% 100%;
+  transition: background-image 0.5s ease;
+
+  // Img preload:
+  &::after {
     height: 0;
     overflow: hidden;
     position: absolute;
@@ -26,9 +32,6 @@
       url("../../img/technology/background-technology-tablet.jpg")
       url("../../img/technology/background-technology-desktop.jpg");
   }
-
-  background-image: url("../../img/home/background-home-desktop.jpg")
-    center/cover no-repeat;
 }
 
 .paragraph {
@@ -106,8 +109,8 @@
   .main {
     flex-direction: column;
     height: auto;
-    background-image: url("../../img/home/background-home-tablet.jpg")
-      center/cover no-repeat;
+    background: url("../../img/home/background-home-tablet.jpg");
+    //background-position: center;
   }
 
   .paragraph {
@@ -133,8 +136,8 @@
 @media (max-width: 575px) {
   .main {
     padding-top: 10%;
-    background-image: url("../../img/home/background-home-mobile.jpg")
-      center/cover no-repeat;
+    background: url("../../img/home/background-home-mobile.jpg");
+    //background-position: center;
   }
 
   .content {
