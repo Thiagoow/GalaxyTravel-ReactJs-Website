@@ -1,4 +1,5 @@
 @use "../abstracts/variables" as *;
+
 //Import images:
 $home-sm: url("/assets/img/home/background-home-mobile.jpg");
 $home-md: url("/assets/img/home/background-home-tablet.jpg");
@@ -120,6 +121,7 @@ $home-lg: url("/assets/img/home/background-home-desktop.jpg");
     background: $home-sm no-repeat center;
   }
 
+  //TODO: Make the text responsive on _mediaQueries.scss:
   .content {
     h1 {
       font-size: $h2-font-size;
