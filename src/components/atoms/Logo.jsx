@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+//Import image(s):
 import logo from "/public/assets/img/favicon.svg";
 
 const Logo = () => {
