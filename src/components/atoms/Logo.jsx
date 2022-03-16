@@ -6,7 +6,7 @@ const Logo = () => {
     <Link to="/">
       <a href="/" className="logo">
         <img
-          src="./public/assets/img/favicon.svg"
+          src="/public/assets/img/favicon.svg"
           alt="logo"
           width={48}
           height={48}
