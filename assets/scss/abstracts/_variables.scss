@@ -1,10 +1,7 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap");
 
-/*===== VARIABLES CSS =====*/
-
-/* :root { */
-/*========== Colors ==========*/
+//==========Colors:
 $first-color: #d0d6f9;
 $alt-color: rgba(#fff, 50%);
 $inactive-color: rgba(#fff, 18%);
@@ -15,12 +12,15 @@ $body-color: #0b0d17;
 $container-color: #fff;
 $shadow-color: rgba(#000, 0.2);
 $border-color: white;
+$scroll-bar-color: #262636;
+$scroll-thumb-color: #6f6f9b;
+$scroll-hover-color: #3d3d5c;
 
-/*========== Font and Typography ==========*/
+//========== Font and Typography:
 $body-font: "Bellefair", sans-serif;
 $subtitle-font: "Barlow Condensed", sans-serif;
 
-/* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+// .5rem = 8px, 1rem = 16px, 1.5rem = 24px ...
 $biggest-font-size: 9rem;
 $h1-font-size: 6.2rem;
 $h2-font-size: 3.5rem;
@@ -30,13 +30,13 @@ $txt-font-size: 1.1rem;
 $small-font-size: 1rem;
 $smaller-font-size: 0.875rem;
 
-/*========== Font Weight ==========*/
+//========== Font Weight:
 $wgt-extra-light: 200;
 $wgt-semi-bold: 600;
 $wgt-bolder: 800;
 
-/*========== Margins ==========*/
-/* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
+/* ========== Margins:
+ .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
 $mb-1: 0.5rem;
 $mb-2: 1rem;
 $mb-3: 1.5rem;
@@ -44,10 +44,10 @@ $mb-4: 2rem;
 $mb-5: 2.5rem;
 $mb-6: 3rem;
 
-/*========== Z-index ==========*/
+//========== Z-index:
 $z-tooltip: 10;
 $z-fixed: 100;
 
-/*========== Border Radius ===========*/
+//========== Border Radius:
 $border-outside-radius: 15px;
 $border-inside-radius: 20px;
