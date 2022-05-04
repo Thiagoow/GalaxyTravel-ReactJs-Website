@@ -10,4 +10,4 @@ tendo como base o projeto <a href="https://www.frontendmentor.io/challenges/spac
 da plataforma online com desafios de código: <a href="https://www.frontendmentor.io/" target="_blank">
 Frontend Mentor</a></p>
 
-## Demo: https://galaxy-travel.netlify.app
+## Demo: https://galaxy-travel.vercel.app
